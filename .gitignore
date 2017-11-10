@@ -9,6 +9,7 @@ var/
 doc/
 anyblok/
 anyblok_dramatiq/
+anyblok_dramatiq_pyramid/
 develop-eggs
 docs/_build/
 .installed.cfg

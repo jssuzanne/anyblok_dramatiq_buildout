@@ -9,6 +9,7 @@ var/
 doc/
 anyblok/
 anyblok_pyramid/
+anyblok_pyramid_beaker/
 anyblok_dramatiq/
 anyblok_dramatiq_pyramid/
 develop-eggs

@@ -26,5 +26,6 @@ class DramatiqExemple(Blok):
         reload(model)
 
     @classmethod
-    def define_actor(cls, registry):
+    def declare_actors(cls, registry):
+        print('plop' * 30)
         declare_actor_for(registry.Task, 'add')

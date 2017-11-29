@@ -1,7 +1,7 @@
 """Blok declaration example
 """
 from anyblok.blok import Blok
-from anyblok_dramatiq.actor import declare_actor_for
+from anyblok_dramatiq.actor import declare_actor_send_for
 
 
 class DramatiqExemple(Blok):
@@ -27,4 +27,4 @@ class DramatiqExemple(Blok):
 
     @classmethod
     def declare_actors(cls, registry):
-        declare_actor_for(registry.Task, 'add')
+        declare_actor_send_for(registry.Task.add)
